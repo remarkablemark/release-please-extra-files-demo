@@ -4,7 +4,7 @@
 
 <!-- x-release-please-start-version -->
 
-1.1.0
+1.2.0
 
 <!-- x-release-please-end -->
 
@@ -20,7 +20,7 @@
 
 <!-- x-release-please-start-minor -->
 
-1
+2
 
 <!-- x-release-please-end -->
 
