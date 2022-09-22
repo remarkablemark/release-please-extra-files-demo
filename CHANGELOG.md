@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.0.0...v1.1.0) (2022-09-22)
+
+
+### Features
+
+* add files with major, minor, and patch versions ([63bb480](https://github.com/remarkablemark/release-please-extra-files-demo/commit/63bb4807c0ec53a9cc9064563396693ea50a6595))
+
 ## 1.0.0 (2022-09-22)
 
 
