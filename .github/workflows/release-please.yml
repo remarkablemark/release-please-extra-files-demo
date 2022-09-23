@@ -19,11 +19,15 @@ jobs:
         with:
           ref: release-please--branches--master
 
+      - name: Configure Git user
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git --no-pager show --name-only
+
       - name: Run CHANGELOG.md through Prettier
         run: |
           npx prettier --write CHANGELOG.md
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git config --global user.name 'github-actions[bot]'
           git add CHANGELOG.md
-          git commit --amend --no-verify
-          git push --force
+          git commit -m 'chore: run CHANGELOG.md through Prettier' --no-verify
+          git push
