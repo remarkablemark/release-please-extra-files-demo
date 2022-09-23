@@ -2,10 +2,9 @@
 
 ## [1.4.0](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.8...v1.4.0) (2022-09-23)
 
-
 ### Features
 
-* **github:** enable manual workflow trigger for release-please.yml ([70e9df5](https://github.com/remarkablemark/release-please-extra-files-demo/commit/70e9df572122673880e5a820dd233c0c1a892e24))
+- **github:** enable manual workflow trigger for release-please.yml ([70e9df5](https://github.com/remarkablemark/release-please-extra-files-demo/commit/70e9df572122673880e5a820dd233c0c1a892e24))
 
 ## [1.3.8](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.7...v1.3.8) (2022-09-23)
 
