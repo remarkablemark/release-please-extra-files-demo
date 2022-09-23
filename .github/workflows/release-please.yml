@@ -22,6 +22,8 @@ jobs:
       - name: Run CHANGELOG.md through Prettier
         run: |
           npx prettier --write CHANGELOG.md
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
           git add CHANGELOG.md
           git commit --amend --no-verify
           git push --force
