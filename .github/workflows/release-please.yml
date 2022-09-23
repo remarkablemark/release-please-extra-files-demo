@@ -26,8 +26,10 @@ jobs:
           git --no-pager show --name-only
 
       - name: Run CHANGELOG.md through Prettier
+        run: npx prettier --write CHANGELOG.md
+
+      - name: Commit and push
         run: |
-          npx prettier --write CHANGELOG.md
           git add CHANGELOG.md
-          git commit --amend --no-edit --no-verify
-          git push --force
+          git commit -m 'chore: run CHANGELOG.md through Prettier' --no-verify
+          git push
