@@ -4,7 +4,7 @@
 
 <!-- x-release-please-start-version -->
 
-1.3.2
+1.3.3
 
 <!-- x-release-please-end -->
 
@@ -28,6 +28,6 @@
 
 <!-- x-release-please-start-patch -->
 
-2
+3
 
 <!-- x-release-please-end -->
