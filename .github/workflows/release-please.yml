@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.pr }}
         with:
-          ref: ${{ steps.release.outputs.pr.headBranchName }}
+          ref: ${{ fromJson(steps.release.outputs.pr).headBranchName }}
 
       - name: Configure Git user
         if: ${{ steps.release.outputs.pr }}
