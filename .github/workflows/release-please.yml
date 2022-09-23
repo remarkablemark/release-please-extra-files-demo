@@ -16,19 +16,23 @@ jobs:
             docs/getting-started.md
 
       - uses: actions/checkout@v3
+        if: ${{ steps.release.outputs.release_created == false }}
         with:
           ref: release-please--branches--master
 
       - name: Configure Git user
+        if: ${{ steps.release.outputs.release_created == false }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git --no-pager show --name-only
 
       - name: Run CHANGELOG.md through Prettier
+        if: ${{ steps.release.outputs.release_created == false }}
         run: npx prettier --write CHANGELOG.md
 
       - name: Commit and push
+        if: ${{ steps.release.outputs.release_created == false }}
         run: |
           git add CHANGELOG.md
           git commit -m 'chore: run CHANGELOG.md through Prettier' --no-verify
