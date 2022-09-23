@@ -14,3 +14,14 @@ jobs:
           extra-files: |
             README.md
             docs/getting-started.md
+
+      - uses: actions/checkout@v3
+        with:
+          ref: release-please--branches--master
+
+      - name: Run CHANGELOG.md through Prettier
+        run: |
+          npx prettier --write CHANGELOG.md
+          git add CHANGELOG.md
+          git commit --amend --no-verify
+          git push --force
