@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.6](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.5...v1.3.6) (2022-09-23)
+
+
+### Bug Fixes
+
+* **github:** add missing release id so jobs don't get skipped ([6bde6ef](https://github.com/remarkablemark/release-please-extra-files-demo/commit/6bde6ef93f08d20edb6c2b18a0e446b5e7afd563))
+
 ## [1.3.5](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.4...v1.3.5) (2022-09-23)
 
 ### Miscellaneous Chores
