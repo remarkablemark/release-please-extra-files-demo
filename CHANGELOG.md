@@ -2,10 +2,9 @@
 
 ## [1.3.3](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.2...v1.3.3) (2022-09-23)
 
-
 ### Bug Fixes
 
-* **github:** don't edit release PR if merged ([5cbd040](https://github.com/remarkablemark/release-please-extra-files-demo/commit/5cbd040af6a39bb83c25523beebde7780634a3e1))
+- **github:** don't edit release PR if merged ([5cbd040](https://github.com/remarkablemark/release-please-extra-files-demo/commit/5cbd040af6a39bb83c25523beebde7780634a3e1))
 
 ## [1.3.2](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.1...v1.3.2) (2022-09-23)
 
