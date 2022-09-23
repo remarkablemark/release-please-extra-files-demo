@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.1](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.0...v1.3.1) (2022-09-23)
+
+
+### Bug Fixes
+
+* **github:** configure git user in workflow release-please.yml ([f60d024](https://github.com/remarkablemark/release-please-extra-files-demo/commit/f60d024829475dab3b5398b500f1f917cbc05aad))
+* **github:** edit release in workflow release-please.yml ([738f5c6](https://github.com/remarkablemark/release-please-extra-files-demo/commit/738f5c65dbe1f93b9ffc07be34098e3e2c6bc532))
+* **github:** supply commit message instead of amend ([632c323](https://github.com/remarkablemark/release-please-extra-files-demo/commit/632c323d46a4dbb156546e39b98c77d435de5e45))
+
 ## [1.3.0](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.2.0...v1.3.0) (2022-09-23)
 
 
