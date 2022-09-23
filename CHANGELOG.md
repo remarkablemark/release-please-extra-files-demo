@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.7](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.6...v1.3.7) (2022-09-23)
+
+
+### Bug Fixes
+
+* **github:** continue job on error ([61cc7dd](https://github.com/remarkablemark/release-please-extra-files-demo/commit/61cc7dd83622bb4f77392644f9a74eebc7478f04))
+
 ## [1.3.6](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.5...v1.3.6) (2022-09-23)
 
 
