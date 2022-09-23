@@ -16,9 +16,10 @@ jobs:
             README.md
             docs/getting-started.md
 
-      - name: Output release
-        if: ${{ steps.release.outputs.release_created }}
+      - name: Echo release outputs
+        if: ${{ steps.release.outputs }}
         run: echo '${{ toJson(steps.release) }}'
+        continue-on-error: true
 
       - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.pr }}
