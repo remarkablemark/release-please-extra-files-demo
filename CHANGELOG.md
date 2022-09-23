@@ -2,11 +2,10 @@
 
 ## [1.3.2](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.1...v1.3.2) (2022-09-23)
 
-
 ### Bug Fixes
 
-* **github:** amend instead of creating a new commit ([e41de84](https://github.com/remarkablemark/release-please-extra-files-demo/commit/e41de84b39e628dba3fdd98f107ca7a4b84e4dfc))
-* **github:** revert amend changes since it broke Release Please ([9de8d22](https://github.com/remarkablemark/release-please-extra-files-demo/commit/9de8d22634abd5e961c26dc820d9ce59f77b3d21))
+- **github:** amend instead of creating a new commit ([e41de84](https://github.com/remarkablemark/release-please-extra-files-demo/commit/e41de84b39e628dba3fdd98f107ca7a4b84e4dfc))
+- **github:** revert amend changes since it broke Release Please ([9de8d22](https://github.com/remarkablemark/release-please-extra-files-demo/commit/9de8d22634abd5e961c26dc820d9ce59f77b3d21))
 
 ## [1.3.1](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.0...v1.3.1) (2022-09-23)
 
