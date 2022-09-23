@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.8](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.7...v1.3.8) (2022-09-23)
+
+
+### Bug Fixes
+
+* **github:** parse JSON string of pr object during checkout ([cc4a4a1](https://github.com/remarkablemark/release-please-extra-files-demo/commit/cc4a4a16ecf62b87efdc6de217addc6b8ebdccd0))
+
 ## [1.3.7](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.6...v1.3.7) (2022-09-23)
 
 
