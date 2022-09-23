@@ -2,10 +2,10 @@
 
 [Release Please](https://github.com/google-github-actions/release-please-action#adding-additional-files) [extra-files](https://github.com/googleapis/release-please/blob/main/docs/customizing.md#updating-arbitrary-files) demo.
 
-Version: 1.2.0 <!-- x-release-please-version -->
+Version: 1.3.0 <!-- x-release-please-version -->
 
 | Type  | Number                            |
 | ----- | --------------------------------- |
 | Major | 1 <!-- x-release-please-major --> |
-| Minor | 2 <!-- x-release-please-minor --> |
+| Minor | 3 <!-- x-release-please-minor --> |
 | Patch | 0 <!-- x-release-please-patch --> |
