@@ -2,19 +2,17 @@
 
 ## [1.3.5](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.4...v1.3.5) (2022-09-23)
 
-
 ### Miscellaneous Chores
 
-* trigger a patch release ([58e72ae](https://github.com/remarkablemark/release-please-extra-files-demo/commit/58e72aef76cb1e3e2e221b9bc5b541ac1264425e))
+- trigger a patch release ([58e72ae](https://github.com/remarkablemark/release-please-extra-files-demo/commit/58e72aef76cb1e3e2e221b9bc5b541ac1264425e))
 
 ## [1.3.4](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.3...v1.3.4) (2022-09-23)
 
-
 ### Bug Fixes
 
-* **github:** check release pr and if previous jobs were skipped ([6e4f76c](https://github.com/remarkablemark/release-please-extra-files-demo/commit/6e4f76caa92d0d88db798b9e382516c296dbe787))
-* **github:** fix expression check in release-please.yml ([a97c3be](https://github.com/remarkablemark/release-please-extra-files-demo/commit/a97c3bed06691e855b1de8f5a19737ba6a13b26d))
-* **github:** replace invalid 'skipped' with release outputs pr ([fb45738](https://github.com/remarkablemark/release-please-extra-files-demo/commit/fb4573846e0b372d834496c35e2e30cf137830db))
+- **github:** check release pr and if previous jobs were skipped ([6e4f76c](https://github.com/remarkablemark/release-please-extra-files-demo/commit/6e4f76caa92d0d88db798b9e382516c296dbe787))
+- **github:** fix expression check in release-please.yml ([a97c3be](https://github.com/remarkablemark/release-please-extra-files-demo/commit/a97c3bed06691e855b1de8f5a19737ba6a13b26d))
+- **github:** replace invalid 'skipped' with release outputs pr ([fb45738](https://github.com/remarkablemark/release-please-extra-files-demo/commit/fb4573846e0b372d834496c35e2e30cf137830db))
 
 ## [1.3.3](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.2...v1.3.3) (2022-09-23)
 
