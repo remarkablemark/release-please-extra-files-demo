@@ -1,0 +1,33 @@
+name: release-please
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          extra-files: |
+            README.md
+            docs/getting-started.md
+
+      - uses: actions/checkout@v3
+        with:
+          ref: release-please--branches--master
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git --no-pager show --name-only
+
+      - name: Run CHANGELOG.md through Prettier
+        run: |
+          npx prettier --write CHANGELOG.md
+          git add CHANGELOG.md
+          git commit --amend --no-edit --no-verify
+          git push --force
