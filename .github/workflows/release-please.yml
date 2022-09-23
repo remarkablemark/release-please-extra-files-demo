@@ -12,9 +12,10 @@ jobs:
         id: release
         with:
           release-type: node
+          pull-request-title-pattern: 'build${scope}: release${component} ${version}'
           extra-files: |
             README.md
-            docs/getting-started.md
+            docs/**
 
       - name: Echo release outputs
         if: ${{ steps.release.outputs }}
