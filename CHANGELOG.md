@@ -2,15 +2,13 @@
 
 ## [1.5.0](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.4.0...v1.5.0) (2022-09-23)
 
-
 ### Features
 
-* **github:** update pull-request-title-pattern ([5413aec](https://github.com/remarkablemark/release-please-extra-files-demo/commit/5413aecaf20fa84e375a56e8dab108835f6de4d9))
-
+- **github:** update pull-request-title-pattern ([5413aec](https://github.com/remarkablemark/release-please-extra-files-demo/commit/5413aecaf20fa84e375a56e8dab108835f6de4d9))
 
 ### Bug Fixes
 
-* **github:** fix extra-files path in release-please.yml ([60e9204](https://github.com/remarkablemark/release-please-extra-files-demo/commit/60e9204d9db3b64f322d053e128aba27d4da8459))
+- **github:** fix extra-files path in release-please.yml ([60e9204](https://github.com/remarkablemark/release-please-extra-files-demo/commit/60e9204d9db3b64f322d053e128aba27d4da8459))
 
 ## [1.4.0](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.3.8...v1.4.0) (2022-09-23)
 
