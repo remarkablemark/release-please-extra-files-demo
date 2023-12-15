@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.5.1](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.5.0...v1.5.1) (2023-12-15)
+
+
+### Features
+
+* **github:** upgrade release-please-action to v4 ([0d6d9bf](https://github.com/remarkablemark/release-please-extra-files-demo/commit/0d6d9bf2e2e3bd17f2844bdd4fd049938f671e0b))
+
+
+### Bug Fixes
+
+* add packages to release-please-config.json ([2e8e00a](https://github.com/remarkablemark/release-please-extra-files-demo/commit/2e8e00a57281742ec139c5876e2c28dcd3dbe3bc))
+* add version to .release-please-manifest.json ([c7ca387](https://github.com/remarkablemark/release-please-extra-files-demo/commit/c7ca3873ae397b1ef3b4864d295356a28aee7f25))
+* create .release-please-manifest.json ([9ced392](https://github.com/remarkablemark/release-please-extra-files-demo/commit/9ced3924ca7fed7027da6cfd707f119c8d2e139b))
+
+
+### Miscellaneous Chores
+
+* release 1.5.1 ([9dd99be](https://github.com/remarkablemark/release-please-extra-files-demo/commit/9dd99be1e4a769ffe77b1e92b75538a9d9c02f76))
+
 ## [1.5.0](https://github.com/remarkablemark/release-please-extra-files-demo/compare/v1.4.0...v1.5.0) (2022-09-23)
 
 ### Features
