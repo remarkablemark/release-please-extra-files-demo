@@ -5,5 +5,8 @@
   "extra-files": [
     "README.md",
     "docs/getting-started.md"
-  ]
+  ],
+  "packages": {
+    ".": {}
+  }
 }
